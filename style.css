@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #1874d1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./Anh/lena1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #802020;
+    border-radius: 5px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between; /* Căn hai đầu */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 10px;
+    background: #f0f0f0;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+li span {
+    flex-grow: 1; /* Giúp phần nội dung mở rộng để đẩy các nút về bên phải */
+    text-align: left;
+}
+.delete-btn {
+    background: #dc3545;
+}
+
+.edit-btn {
+    background: #007bff;
+}
+
+h2 {
+    color: #d22c6c;
+    text-align: center;
+    /* font-style:normal; */
+}
+
+/* .item-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+} */
