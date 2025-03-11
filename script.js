@@ -1,5 +1,5 @@
 // Khi trang web tải xong, gọi hàm loadItems() để hiển thị danh sách đã lưu
-// document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     loadItems();
 
     // Nhấn Enter trong ô itemInput để thêm mục
@@ -23,7 +23,7 @@
             e.target.click();
         }
     });
-// });
+});
 
 /**
  * Hàm thêm mục mới vào danh sách
