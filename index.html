@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0fda61b78a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <h2>Ứng dụng CRUD <i class="fas fa-heart"></i> </h2>
+        
+        <input type="text" id="itemInput" placeholder="Nhập tên mục..." tabindex="1">
+        <button onclick="addItem()" id="addBtn" tabindex="2">Thêm</button>
+        <input type="text" id="searchInput" placeholder="Tìm kiếm..." onkeyup="searchItem()" tabindex="3">
+        <ul id="itemList"></ul>
+        <p id="totalItems">Tổng số mục: 0 </p>
+        <!-- <i class="fas fa-cloud"></i> -->
+    </div>
+    <!-- <p>Some Font Awesome icons:</p>
+    <i class="fas fa-cloud"></i>
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-car"></i>
+    <i class="fas fa-file"></i>
+    <i class="fas fa-bars"></i> -->
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
